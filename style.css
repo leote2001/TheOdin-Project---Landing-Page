@@ -18,12 +18,14 @@ header {
 }
 
 nav {   
+    justify-content: center;
     display: flex;
     gap: 10px;
     margin-bottom: 10px;
 }
 
 ul {    
+    border: 1px solid darkorange;
     list-style-type: none;
     padding: 0;
 }
@@ -45,10 +47,53 @@ a {
 }
 
 .hero p {   
+    border: 1px solid black;
     font-size: 125%;
 }
 
 h1 {    
     font-size: 250%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
+main {  
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+}
+
+main h2 {   
+    text-align: center;
+}
+
+.información-1, .información-2 {  
+    justify-content: space-between;
+    display: flex;
+    padding: 8px;
+}
+
+.info { 
+    padding: 8px;
+    text-align: center;
+}
+
+.suscribirse {  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8px;
+    gap: 10px;
+}
+
+.cita { 
+    text-align: center;
+    border: 1px solid black;
+    font-size: 125%;
+    color: blue;
+}
+
+footer {    
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+}
